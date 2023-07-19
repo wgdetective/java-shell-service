@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    group:
+      local:
+        - inMemoryDb
+  webflux:
+    base-path: /java-shell-service
+  sql:
+    init:
+      mode: always
