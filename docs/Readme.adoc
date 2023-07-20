@@ -1,12 +1,12 @@
-# JAVA SHELL SERVICE
+= JAVA SHELL SERVICE
 This project could be used as a foundational for creation of java web services.
 
-## What is included
+== What is included
 * Simple rest application with crud
 * BDD style tests
 * Quality gates
 
-## Quality Gates
+== Quality Gates
 * checkstyle - analyses code for mismatches in coding standard.
 * spotless - applies code formatting according to coding standard.
 * spotbugs - analyses for bugs in java code.
