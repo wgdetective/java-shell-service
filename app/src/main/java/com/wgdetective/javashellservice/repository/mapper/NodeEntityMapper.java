@@ -1,7 +1,7 @@
-package com.wgdetective.javashellservice.repositiry.mapper;
+package com.wgdetective.javashellservice.repository.mapper;
 
 import com.wgdetective.javashellservice.model.Node;
-import com.wgdetective.javashellservice.repositiry.entity.NodeEntity;
+import com.wgdetective.javashellservice.repository.entity.NodeEntity;
 import org.mapstruct.Mapper;
 
 /**

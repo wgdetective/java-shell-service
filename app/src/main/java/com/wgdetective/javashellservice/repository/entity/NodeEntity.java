@@ -1,4 +1,4 @@
-package com.wgdetective.javashellservice.repositiry.entity;
+package com.wgdetective.javashellservice.repository.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

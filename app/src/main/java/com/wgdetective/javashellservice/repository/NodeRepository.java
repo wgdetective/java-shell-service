@@ -1,4 +1,4 @@
-package com.wgdetective.javashellservice.repositiry;
+package com.wgdetective.javashellservice.repository;
 
 import com.wgdetective.javashellservice.model.Node;
 import reactor.core.publisher.Flux;

@@ -5,8 +5,8 @@ import java.nio.charset.StandardCharsets;
 import java.util.Objects;
 
 import com.wgdetective.javashellservice.controller.dto.CreateNodeDto;
-import com.wgdetective.javashellservice.repositiry.DataBaseNodeRepository;
-import com.wgdetective.javashellservice.repositiry.entity.NodeEntity;
+import com.wgdetective.javashellservice.repository.DataBaseNodeRepository;
+import com.wgdetective.javashellservice.repository.entity.NodeEntity;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.reactive.AutoConfigureWebTestClient;

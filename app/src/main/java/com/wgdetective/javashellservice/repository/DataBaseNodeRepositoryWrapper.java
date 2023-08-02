@@ -1,7 +1,7 @@
-package com.wgdetective.javashellservice.repositiry;
+package com.wgdetective.javashellservice.repository;
 
 import com.wgdetective.javashellservice.model.Node;
-import com.wgdetective.javashellservice.repositiry.mapper.NodeEntityMapper;
+import com.wgdetective.javashellservice.repository.mapper.NodeEntityMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Flux;

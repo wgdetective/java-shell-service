@@ -1,6 +1,6 @@
-package com.wgdetective.javashellservice.repositiry;
+package com.wgdetective.javashellservice.repository;
 
-import com.wgdetective.javashellservice.repositiry.entity.NodeEntity;
+import com.wgdetective.javashellservice.repository.entity.NodeEntity;
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 import org.springframework.stereotype.Repository;
 

@@ -2,7 +2,7 @@ package com.wgdetective.javashellservice.service;
 
 import com.wgdetective.javashellservice.model.CreateNode;
 import com.wgdetective.javashellservice.model.Node;
-import com.wgdetective.javashellservice.repositiry.NodeRepository;
+import com.wgdetective.javashellservice.repository.NodeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
