@@ -40,6 +40,8 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
     annotationProcessor("org.mapstruct:mapstruct-processor:${property("mapstructVersion")}")
 
+    implementation("org.springdoc:springdoc-openapi-starter-webflux-ui:2.2.0")
+
     testAnnotationProcessor("org.mapstruct:mapstruct-processor:${property("mapstructVersion")}")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")

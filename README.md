@@ -14,3 +14,6 @@ This project could be used as a foundational for creation of java web services.
 * sonarqube - automatic code review tool that systematically helps you deliver clean code.
 * asciidoc - generate pdf, html documentation.
 * dependencycheck - detects vulnerabilities in dependencies.
+
+## Swagger
+`http://localhost:8080/java-shell-service/webjars/swagger-ui/index.html`
