@@ -21,7 +21,7 @@ import reactor.core.publisher.Mono;
  */
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/v1/node")
+@RequestMapping("/api/v1/node")
 public class NodeController {
 
     private final NodeService service;

@@ -33,7 +33,7 @@ class NodeCRUDUseCaseTests {
         var node = new CreateNodeDto(null, "Value");
 
         // when
-        client.put().uri("/v1/node")
+        client.post().uri("/api/v1/node")
                 .bodyValue(node)
                 .exchange()
                 // then
@@ -60,7 +60,7 @@ class NodeCRUDUseCaseTests {
 
         // when
         assert updateNode != null;
-        client.post().uri("/v1/node")
+        client.put().uri("/api/v1/node")
                 .bodyValue(updateNode)
                 .exchange()
                 // then
@@ -83,7 +83,7 @@ class NodeCRUDUseCaseTests {
 
         // when
         assert node != null;
-        client.get().uri("/v1/node/" + node.getId())
+        client.get().uri("/api/v1/node/" + node.getId())
                 .exchange()
                 // then
                 .expectStatus().isOk()
@@ -105,7 +105,7 @@ class NodeCRUDUseCaseTests {
         node2 = repository.save(node2).block();
 
         // when
-        client.get().uri("/v1/node")
+        client.get().uri("/api/v1/node")
                 .exchange()
                 // then
                 .expectStatus().isOk()
